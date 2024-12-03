@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    color:blueviolet;
+    font-family:fantasy;
+}
+
+h3{
+    border: 2px solid black;
+}
+
+a:link {
+    color: blue;
+    transition: all 0,5s ease 0,2s;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:focus {
+    color: green;
+}
+
+a:hover {
+    color: orange;
+
+}
+
+a:active {
+    color: yellow; 
+}
+
+.button {
+    font-size: .8cm;
+    
+}
+
+a {
+    display: inline-block;
+    transition: transform 0,5s ease;  
+}
+
+a:hover {
+    transform: scale(1.2) rotate(10deg); 
+}
+
